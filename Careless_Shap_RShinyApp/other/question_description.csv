@@ -1,0 +1,78 @@
+Question;Description
+Careless;Actual type of responder (also known as a 'True class').
+HE01_01_r;Visiting an art exhibition would be quite boring for me.
+HE01_09_r;Sometimes others tell me that I am too critical of others.
+HE01_10_r;I rarely give my opinion at group meetings.
+HE01_12_r;If I knew I'd never get caught, I'd be ready to steal a million.
+HE01_14_r;When I'm working on something, I don't pay too much attention to small details.
+HE01_15_r;Sometimes others tell me that I am too stubborn.
+HE01_19_r;I think paying attention to radical ideas is a waste of time.
+HE01_20_r;I make decisions based on gut instinct rather than through careful thought.
+HE01_21_r;Others think I am irascible.
+HE01_24_r;I think I deserve more respect than the average person.
+HE01_26_r;When I work, I sometimes have difficulties because I am disorganized.
+HE01_28_r;I think I'm not popular.
+HE01_30_r;When I want something from someone, I also laugh at their worst jokes.
+HE01_31_r;I've never really liked leafing through an encyclopedia.
+HE01_32_r;I only work as much as I need to just get through.
+HE01_35_r;I'm much less worried than most people.
+HE01_41_r;I can deal with difficult situations without receiving emotional support from anyone.
+HE01_42_r;I would enjoy owning expensive luxury goods.
+HE01_44_r;I make a lot of mistakes because I don't think before I act.
+HE01_46_r;Most people are more crazy and dynamic than I am in general.
+HE01_48_r;I want everyone to know that I am an important, respected person.
+HE01_49_r;I do not consider myself an artistic or creative person.
+HE01_52_r;Sometimes I have the impression that I am worthless.
+HE01_53_r;I wouldn't panic even in an emergency.
+HE01_55_r;I find it boring to discuss philosophy.
+HE01_56_r;I prefer to do what comes to mind rather than to stick to a plan.
+HE01_57_r;When others tell me I'm wrong, my first reaction is to argue with them.
+HE01_59_r;I remain emotionless, even in situations where most people are very sentimental.
+HE01_60_r;I would be tempted to use counterfeit money if I could be sure of getting away with it.
+HE01_02;I plan and organize in advance so that there is no time pressure at the last minute.
+HE01_03;I rarely feel angry, not even at people who treated me very unfairly.
+HE01_04;In general, I'm pretty happy with myself.
+HE01_05;I would be afraid if I had to travel in bad weather conditions.
+HE01_06;I wouldn't use flattery to get a raise or to be promoted even if I knew it would be successful.
+HE01_07;I am interested in learning about the history and politics of other countries.
+HE01_08;I often push myself very hard when trying to achieve a goal.
+HE01_11;Sometimes I can't help worrying about little things.
+HE01_13;I would enjoy creating a work of art, such as a novel, a song or a painting.
+HE01_16;I prefer professions in which you actively deal with other people over those in which you work alone.
+HE01_17;When I am suffering from a painful experience, I need someone to comfort me.
+HE01_18;Having a lot of money is not particularly important to me.
+HE01_22;Most days I am happy and optimistic.
+HE01_23;I could cry when I see other people crying.
+HE01_25;If I had the opportunity, I would like to attend a classical music concert.
+HE01_27;"My attitude towards people who have treated me badly is ""forgiven and forgotten""."
+HE01_29;When it comes to physical dangers, I am very fearful.
+HE01_33;I tend to be lenient when I judge others.
+HE01_34;In social situations, I'm usually the one who takes the first step.
+HE01_36;I would never take a bribe, even if it was a lot.
+HE01_37;I've been told many times that I have a good imagination.
+HE01_38;I always try to work flawlessly, even if it takes time.
+HE01_39;I am usually quite flexible in my views when other people disagree with me.
+HE01_40;The first thing I do in a new place is to make friends.
+HE01_43;I like people who have unconventional ideas.
+HE01_45;Most people get angry faster than me.
+HE01_47;I feel strong emotions when someone close to me leaves for a long time.
+HE01_50;Others often call me a perfectionist.
+HE01_51;Even when people make a lot of mistakes, I rarely say anything negative.
+HE01_54;I wouldn't pretend to like someone just to get that person to do me favors.
+HE01_58;When I am in a group of people, I am often the one who speaks on behalf of the group.
+TIME_*;Time that an interviewee has spend on a questionnaire page.
+SO04;Level of German knowledge.
+SO06;Occupation.
+longstr;Longstring
+avgstr;Average longstring.
+longstr1;longstring one
+longstr2;longstring two
+longstrDiff;Longstring difference calculated between longstr2 and longstr1.
+irvTotal;Intra-individual response variability (IRV)
+irv1;irv one
+irv6;irv six
+irvDiff;Difference in intra-individual response variability between irv1 and irv6
+res_mahad;Mahalanobi's distance results
+res_psycsyn;Psychometric synonyms results
+res_evenodd;Even-odd consistency results
+res_u3poly;Polytomous U3 statistic results

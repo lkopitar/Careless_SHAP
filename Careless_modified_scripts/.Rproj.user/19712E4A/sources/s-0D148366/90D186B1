@@ -1,0 +1,32 @@
+{
+    "id": "90D186B1",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1609289651396.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "expression": "data",
+        "caption": "data",
+        "totalObservations": 597,
+        "displayedObservations": 597,
+        "variables": 84,
+        "cacheKey": "65CFCAD9",
+        "object": "data",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=data&cache_key=65CFCAD9&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 14074143976063030,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1609289651396,
+    "read_only": false,
+    "read_only_alternatives": []
+}

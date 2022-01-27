@@ -1,0 +1,5 @@
+Methods;Description
+Psychsyn;Psychometric synonym score (Highly positively correlation). Innitially, critical value has to be determined. Threshold value that yields in at least 30 correlated pairs is appropriate for a relavant calculation. Questionnaires whose Psychsyn score is around 0 or negative are considered to be careless responders.
+Psychant;Psychometric antonym score (Highly negatively correlation). Similar procedure as it is for Psychsyn, the only difference is that questionnaires whose Psychant score is around 0 or positive are considered to be careless responders.
+Longstring;The longest sequence of identical consecutive responses for each questionnaire.
+Longstring (Average);The average length of identical consecutive responses for each questionnaire

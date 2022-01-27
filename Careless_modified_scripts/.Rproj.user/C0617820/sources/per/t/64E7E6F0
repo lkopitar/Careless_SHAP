@@ -1,0 +1,26 @@
+{
+    "id": "64E7E6F0",
+    "path": "D:/Documents/Projekti/2022_careless_shap/Careless_modified_scripts/05_plot_performance.R",
+    "project_path": "05_plot_performance.R",
+    "type": "r_source",
+    "hash": "3141966774",
+    "contents": "",
+    "dirty": false,
+    "created": 1643239948166.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "60,0",
+        "scrollLine": "40"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1609345042,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1609345042,
+    "read_only": false,
+    "read_only_alternatives": []
+}
