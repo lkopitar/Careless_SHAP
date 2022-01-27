@@ -1,5 +1,6 @@
 library(tidyverse)
 library(gmodels) # confidence interval - CI() function
+library(plyr)
 
 # ########################################
 # # YOU MAY WANT TO SKIP THIS PART # GENERATING RESULTS
@@ -51,7 +52,7 @@ library(gmodels) # confidence interval - CI() function
 
 summarySE <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
                       conf.interval=.95, .drop=TRUE) {
-  library(plyr)
+
 
   # New version of length which can handle NA's: if na.rm==T, don't count them
   length2 <- function (x, na.rm=FALSE) {
