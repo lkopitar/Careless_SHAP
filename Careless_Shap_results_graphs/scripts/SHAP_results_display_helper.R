@@ -87,7 +87,11 @@ summarySE <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
 }
 
 display_SHAP_contribution <- function(res_2, display_n = 10, focus_type = "careless misclass:no", types = c("careless misclass:no", "regular misclass:no")){
-  
+  # unique(res_2$type)
+  # res_2$type <- ifelse(res_2$type == "careless misclass:no", "True Careless respondents (TP)", 
+  #                      ifelse(res_2$type =="careless misclass:yes", "False Careless respondents (FN)",
+  #                             ifelse(res_2$type =="regular misclass:no", "True Regular respondents (TN)", " False Regular respondents (FN)")))
+  # 
   filtered_results <- filter(res_2, type %in% types)
   
   # get negative n vars based on focus type
@@ -105,7 +109,15 @@ display_SHAP_contribution <- function(res_2, display_n = 10, focus_type = "carel
     xlab("Variable name")+
     ylab("SHAP Contribution")+
     ggtitle(paste0("Variables with the lowest (negative) average SHAP contribution (bottom ",display_n,")"))+
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, size = 20),
+          axis.text.y = element_text(size=20),
+          axis.title = element_text(size = 20),
+          plot.title = element_text(size=20),
+          # legend.text = element_text(size=20),
+          # legend.title = element_text(size=20)
+          )+
+    guides(fill=FALSE)+ #guide_legend(title="Type")+
+    scale_fill_manual(values=c("red", "green"))
   
   # get positive n vars based on focus type
   tail_n <- filter(filtered_results, type == focus_type) %>% arrange(contribution) %>% tail(10)
@@ -121,8 +133,15 @@ display_SHAP_contribution <- function(res_2, display_n = 10, focus_type = "carel
     xlab("Variable name")+
     ylab("SHAP Contribution")+
     ggtitle(paste0("Variables with the highest (positive) average Shap contribution (top ",display_n,")"))+ 
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, size = 20),
+          axis.text.y = element_text(size=20),
+          axis.title = element_text(size = 20),
+          plot.title = element_text(size=20),
+          # legend.text = element_text(size=20),
+          # legend.title = element_text(size=20)
+    )+ guides(fill=FALSE)+ #guide_legend(title="Type")+
+    scale_fill_manual(values=c("red", "green"))
+  
   
   return(list(plot_negative=plot_negative, plot_positive=plot_positive, filtered_results=filtered_results))
 }
-
